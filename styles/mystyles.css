@@ -1,0 +1,39 @@
+body {
+    background-image: url("../assets/img/HomeBack.png");
+    background-image: url(".../assets/img/rename.png");
+}
+
+.titlecolor {
+font-weight: normal; 
+color: rgb(130, 165, 177);
+}
+
+.font{
+    color: rgb(130, 165, 177);
+}
+
+.center {
+    text-align: center;
+}
+
+.invert {
+    transform: rotateY(180deg);
+}
+
+
+.italicize {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold ;
+}
+
+.underline {
+    text-decoration: underline ;
+}
+
+.fontstyle {
+    font-family: 'Times New Roman', Times, serif;
+}
+    

@@ -1,0 +1,56 @@
+body{
+    background-color: ivory;
+}
+.nav{
+    display: flex;
+}
+.navlink{
+    border-radius: 100px;
+    margin: auto auto;
+}
+.navlink a{
+    margin: 0 10px;
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 2em;
+}
+.navlink a:hover {
+    color: darkslategray;
+}
+.navlink:hover {
+    background-color: ivory;
+}
+.container {
+    width: 85%;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    background-color: darkslategray;
+}
+.footer{
+    background-color: darkslategray;
+}
+.footBox{
+    margin: 0 auto;
+    width: fit-content;
+    color: ivory;
+}
+
+.footBox a{
+    color: ivory;
+    text-decoration: none;;
+}
+.title{
+    width: fit-content;
+    margin: 0 auto;
+    color:darkslategray;
+}
+.container h3{
+    color: ivory;
+    width: fit-content;
+    margin: 0 auto;
+    height: 2.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
